@@ -57,18 +57,22 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Zerodha Clone"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="iSchool"
+              description="It is difficult to find time for the training necessary to gain new skills and boost your
+                          productivity. With iSchool you’re able to learn at a pace that is comfortable for you.
+                          iSchool is a powerful Learning Management System implementing the latest trends
+                          in e-learning. E-Learning is learning utilizing electronic technologies to access
+                          educational curriculum outside of a traditional classroom. "
+              ghLink="https://github.com/DhiravAgrawal/iSchool"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -77,7 +81,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col> */}
+          </Col>  */}
         </Row>
       </Container>
     </Container>
