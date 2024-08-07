@@ -2,15 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
+
 import CarRentalSystem from "../../Assets/Projects/CarRentalSystem.png";
 import Konnect from "../../Assets/Projects/Konnect.png";
 import Wanderlust from "../../Assets/Projects/Wanderlust.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import iSchool from "../../Assets/Projects/iSchool.png";
 
 function Projects() {
   return (
@@ -59,7 +55,7 @@ function Projects() {
 
            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={iSchool}
               isBlog={false}
               title="iSchool"
               description="It is difficult to find time for the training necessary to gain new skills and boost your
