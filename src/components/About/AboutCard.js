@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Dhirav Agrawal </span>
             from <span className="purple"> Ahmedabad, Gujarat, India.</span>
             <br />
-            I am pursuing .
+            I am pursuing BTech in CSE from Pandit Deendayal Energy University.Current in my 4th year looking for opportunities to work.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
