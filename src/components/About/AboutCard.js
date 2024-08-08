@@ -9,9 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Dhirav Agrawal </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
+            from <span className="purple"> Ahmedabad, Gujarat, India.</span>
             <br />
             I am pursuing .
             <br />
