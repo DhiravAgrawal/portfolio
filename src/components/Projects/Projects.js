@@ -7,7 +7,6 @@ import CarRentalSystem from "../../Assets/Projects/CarRentalSystem.png";
 import Konnect from "../../Assets/Projects/Konnect.png";
 import Wanderlust from "../../Assets/Projects/Wanderlust.png";
 import iSchool from "../../Assets/Projects/iSchool.png";
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -53,6 +52,20 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iSchool}
+              isBlog={false}
+              title="HupDup"
+              description="Leveraged yargs to create custom GitHub command-line commands, enabling streamlined repository
+                        management within the application. Implemented repository storage on AWS S3, ensuring scalable and secure version control with seamless
+                        integration using fs modules for initialization locally. Developed a backend with rigorous error handling and data validation, ensuring reliability and stability in the
+                        version control system."
+              ghLink="https://github.com/DhiravAgrawal/HupDup"
+              demoLink="https://hupdup.onrender.com/"
+            />
+          </Col>
+
            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={iSchool}
@@ -68,16 +81,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>  */}
+           
         </Row>
       </Container>
     </Container>
