@@ -7,6 +7,7 @@ import CarRentalSystem from "../../Assets/Projects/CarRentalSystem.png";
 import Konnect from "../../Assets/Projects/Konnect.png";
 import Wanderlust from "../../Assets/Projects/Wanderlust.png";
 import iSchool from "../../Assets/Projects/iSchool.png";
+import Hupdup from "../../Assets/Projects/Hupdup.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -40,21 +41,10 @@ function Projects() {
               demoLink="https://konnectfrontend.onrender.com/"
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CarRentalSystem}
-              isBlog={false}
-              title="Car Reantal System"
-              description="Designed an online car rental system, allowing customers to view and book from a fleet of 100+ cars, resulting in a 30% increase in booking efficiency. Facilitated car rental operations for a company that rents cars to customers. Features: User authentication, booking management, real-time availability."
-              ghLink="https://github.com/DhiravAgrawal/Car-Rental-System"
-              // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={iSchool}
+              imgPath={Hupdup}
               isBlog={false}
               title="HupDup"
               description="Leveraged yargs to create custom GitHub command-line commands, enabling streamlined repository
@@ -63,6 +53,17 @@ function Projects() {
                         version control system."
               ghLink="https://github.com/DhiravAgrawal/HupDup"
               demoLink="https://hupdup.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CarRentalSystem}
+              isBlog={false}
+              title="Car Rental System"
+              description="Designed an online car rental system, allowing customers to view and book from a fleet of 100+ cars, resulting in a 30% increase in booking efficiency. Facilitated car rental operations for a company that rents cars to customers. Features: User authentication, booking management, real-time availability."
+              ghLink="https://github.com/DhiravAgrawal/Car-Rental-System"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
